@@ -43,15 +43,15 @@ public class EmployeeService {
         System.out.println("Cредняя оплата труда " + sum/count);
     }
 
-    public static void print(Employee[] employees) {
+    public static void printFIO(Employee[] employees) {
         for (Employee employee : employees) {
             if (employee != null)
                 System.out.println(employee.getEmployeeName());
         }
     }
 
-    public static void printAllInfo(Employee[] employee) {
-        for (Employee employeeName : employee) {
+    public static void printAllInfo(Employee[] employees) {
+        for (Employee employee : employees) {
             if (employee != null)
                 System.out.println(employee);
         }
